@@ -1,0 +1,222 @@
+TASK 6:
+NUMBER 2:
+<!DOCTYPE html>
+<html>
+<body>
+ <script>
+ alert("I'm JavaScript!");
+ </script>
+ Whats the error in this ?
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<body>
+ <script src="script.js"></script>
+</body>
+</html>
+alert("I'm JavaScript!");: This line displays an alert with the message "I'm JavaScript!". It's a straightforward JavaScript statement that shows a pop-up box with the given message.
+
+alert('Hello'): This line also displays an alert, but notice that it doesn't end with a semicolon. In JavaScript, a semicolon is optional in many cases, and the interpreter can automatically insert it at the end of a line if it's missing. However, it's considered good practice to include semicolons to avoid potential issues.
+
+alert(Wor ld): This line uses template literals (delimited by backticks) to create a string. It includes a line break between "Wor" and "ld". The JavaScript interpreter allows multiline strings using template literals.
+
+alert(3 + 1 + 2);: This line demonstrates that JavaScript allows breaking a line in the middle of an expression. The + operator concatenates the numbers 3, 1, and 2, resulting in 6. This showcases the flexibility of JavaScript in terms of formatting and writing code across multiple lines.
+
+In summary, JavaScript is lenient when it comes to semicolons and line breaks in certain situations. However, it's generally a good practice to include semicolons to make the code more readable and prevent potential issues, especially in larger codebases. Additionally, multiline strings and breaking lines in expressions are supported features in JavaScript.
+<!DOCTYPE html>
+<html>
+<body>
+ <script src="script.js"></script>
+</body>
+</html>
+let admin = "Guvi", fname = "Guvi", lname = "geek";
+admin = fname + " " + lname;
+alert(admin); // "Guvi geek"
+<!DOCTYPE html>
+<html>
+<body>
+ <script src="script.js"></script>
+</body>
+</html>
+let fname = 10.5; 
+fname = "Guvi";
+lname = "geek";
+let name = fname + lname;
+alert(`hello ${name}`);
+<!DOCTYPE html>
+<html>
+<body>
+ <script src="script.js"></script>
+</body>
+</html>
+let a = prompt("First number?");
+let b = prompt("Second number?");
+let sum = parseInt(a) + parseInt(b);
+alert("The sum is: " + sum);
+<!DOCTYPE html>
+<html>
+<body>
+ <script src="script.js"></script>
+</body>
+</html>
+let a = prompt("First number?");
+let b = prompt("Second number?");
+let sum = parseInt(a) + parseInt(b);
+alert("The sum is: " + sum);
+<!DOCTYPE html>
+<html>
+<body>
+ <script src="script.js"></script>
+</body>
+</html>
+var a = parseInt("2") > parseInt("12");
+//Don't touch below this
+if (a) {
+  console.log("Code is Blasted");
+} else {
+  console.log("Diffused");
+}
+<!DOCTYPE html>
+<html>
+<body>
+ <script src="script.js"></script>
+</body>
+</html>
+let a = prompt("Enter a number?");
+// Don't modify any code below this
+if (a !== null && a !== "") {
+ console.log('OMG it works for any number inc 0');
+}
+else {
+ console.log("Success");
+}
+<!DOCTYPE html>
+<html>
+<body>
+ <script src="script.js"></script>
+</body>
+</html>
+let value = prompt('How many runs you scored in this ball');
+value = parseInt(value);
+
+if (value === 4) {
+      console.log("You hit a Four");
+} else if (value === 6) {
+      console.log("You hit a Six");
+} else {
+      console.log("I couldn't figure out");
+}
+<!DOCTYPE html>
+<html>
+<body>
+ <script src="script.js"></script>
+</body>
+</html>
+let login = 'Employee';
+let message = (login == 'Employee') ? 'Welcome' :
+  (login == 'Director') ? 'Greetings' :
+  (login == '') ? 'No login' :
+  '';
+console.log(message);
+<!DOCTYPE html>
+<html>
+<body>
+ <script src="script.js"></script>
+</body>
+</html>
+// You can't change the value of the msg
+let message;
+
+if (null || 2 || undefined) {
+  message = "Welcome boss";
+} else {
+  message = "Go away";
+}
+
+console.log(message);
+<!DOCTYPE html>
+<html>
+<body>
+ <script src="script.js"></script>
+</body>
+</html>
+let message;
+let lock = 2;
+
+// Don't change any code below this 
+if (null || lock || undefined) {
+  message = "Welcome";
+} else {
+  message = "Go away";
+}
+
+console.log(message);
+<!DOCTYPE html>
+<html>
+<body>
+ <script src="script.js"></script>
+</body>
+</html>
+let message;
+let lock = 2;
+
+// Don't change any code below this
+if (lock !== undefined && lock !== " ") {
+  message = "Welcome";
+} else {
+  message = "Go away";
+}
+
+console.log(message);
+<!DOCTYPE html>
+<html>
+<body>
+ <script src="script.js"></script>
+</body>
+</html>
+// You can change only 2 characters
+let i = 3;
+while (i) {
+  console.log(i--);
+}
+OUTPUT:
+3
+2
+1
+<!DOCTYPE html>
+<html>
+<body>
+ <script src="script.js"></script>
+</body>
+</html>
+let num = 1;
+
+for (let i = 0; i < 10; i++) {
+  console.log(num);
+  num += 1;
+}
+<!DOCTYPE html>
+<html>
+<body>
+ <script src="script.js"></script>
+</body>
+</html>
+// You are allowed to modify only one character
+for (let num = 2; num <= 20; num += 2) {
+  console.log(num);
+}
+<!DOCTYPE html>
+<html>
+<body>
+ <script src="script.js"></script>
+</body>
+</html>
+let gifts = ["teddy bear", "drone", "doll"];
+for (let i = 0; i < 3; i++) {
+  console.log(`Wrapped ${gifts[i]} and added a bow!`);
+}
+
+
+
+
